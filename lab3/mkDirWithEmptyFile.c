@@ -6,7 +6,7 @@
 
 void printErr(char str[]){
     perror(str);
-    exit(1);
+    exit(-1);
 }
 
 
